@@ -1,0 +1,200 @@
+h1 {
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: indigo;
+    color: white;
+    box-shadow: 0 5px 10px violet;
+}
+
+h2 {
+
+ color: indigo;
+}
+
+
+
+
+h2 {
+ color: indigo;
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    /* background-color: darkorchid; */
+    /* color: white; */
+}
+
+img {
+    background-color: violet;
+    padding: 10px;
+    max-width: 500px;
+    border: 5px solid black;
+    border-radius: 5%;
+    margin: auto;
+    box-shadow: 0 0 20px darkorchid;
+}
+
+body {
+    margin: 0%;
+    
+    /* background-color: #6A5ACD; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenedor {
+    width: 95%;
+    max-width: 1200px;
+    margin: auto;
+    background: white;
+    padding: 10px;
+    border: solid magenta 5px;
+    box-shadow: 0 0 40px purple;
+}
+
+#chapter {
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: darkorchid;
+    color: white;"
+        box-shadow: 0 5px 10px violet;
+}
+
+#mechanism {
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: yellow;
+    color: black;
+}
+
+ :root {
+            --primary-green: #2e7d32;
+            --dark-green: #1b5e20;
+            --light-green: #e8f5e9;
+            --accent-green: #4caf50;
+            --border-color: #2e7d32;
+            --bg-color: #f4f6f8;
+            --card-bg: #ffffff;
+            --text-color: #333333;
+        }
+
+        /* body { */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        /* } */
+
+        .container {
+            max-width: 1200px;
+            width: 100%;
+            background: var(--card-bg);
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 25px;
+            border-bottom: 3px solid var(--primary-green);
+            padding-bottom: 15px;
+        }
+
+        .header h1 {
+            color: var(--dark-green);
+            margin: 0 0 10px 0;
+            font-size: 28px;
+        }
+
+        .student-info {
+            font-size: 16px;
+            color: #666;
+            font-weight: 600;
+        }
+
+        .table-container {
+            overflow-x: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+            font-size: 14px;
+            border: 2px solid var(--border-color);
+        }
+
+        th, td {
+            border: 1px solid var(--border-color);
+            padding: 12px;
+            vertical-align: top;
+            text-align: left;
+        }
+
+        /* Top Header Category Formatting */
+        tr.main-category th {
+            background-color: var(--primary-green);
+            color: white;
+            text-align: center;
+            font-size: 16px;
+            font-weight: bold;
+            letter-spacing: 0.5px;
+            padding: 14px;
+        }
+
+        /* Leftmost Header Column */
+        th.row-header {
+            background-color: var(--light-green);
+            color: var(--dark-green);
+            font-weight: bold;
+            font-size: 15px;
+            width: 150px;
+            text-align: center;
+            vertical-align: middle;
+            border-right: 2px solid var(--border-color);
+        }
+
+        /* Specific Sub-Header Formatting */
+        .sub-header {
+            background-color: #c8e6c9;
+            color: var(--dark-green);
+            font-weight: bold;
+            text-align: center;
+        }
+
+        /* Hover Effect for Table Rows */
+        tbody tr:hover {
+            background-color: #f1f8e9;
+        }
+
+        /* Specific styling for content cells */
+        td {
+            line-height: 1.5;
+        }
+
+        ul {
+            margin: 0;
+            padding-left: 18px;
+        }
+
+        li {
+            margin-bottom: 4px;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+            .container {
+                padding: 15px;
+            }
+            th, td {
+                padding: 8px;
+                font-size: 12px;
+            }
+        }
+
+
+
